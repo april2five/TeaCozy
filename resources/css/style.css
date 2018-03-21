@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+a:hover{
+  opacity: 0.6;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+header{
+  min-height: 70px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+}
+
+header img{
+  height: 50px;
+  margin: 10px 10px;
+}
+
+.topmenu a {
+  padding:0px 10px;
+}
+
+.main_container {
+  position: relative;
+  top: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner{
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.bannercaption{
+  width: 100%;
+  background-color: black;
+  opacity: 1;
+  padding: 20px 10px;
+}
+
+.teas{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.teas img{
+  width: 300px;
+  height: 200px;
+  margin: 30px 10px 10px 10px;
+}
+
+.tea_month {
+  margin: 70px 0px;
+}
+
+.location{
+  min-height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.locations{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.branch{
+  width: 290px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+  padding: 20px 5px;
+  margin: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.teacozy{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teacozy h5{
+  margin: 15px 0px;
+}
+
+footer{
+  margin: 10px;
+  position: relative;
+  top: 70px;
+}
